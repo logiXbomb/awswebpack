@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/index.js",
+    "start": "node bin/server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-client": "node ./node_modules/webpack/bin/webpack --config ./webpack/client.babel.js --progress -d",
-    "build-server": "babel src/server/ --out-dir bin"
+    "build-server": "babel src/server/ --out-dir bin/server"
   },
   "repository": {
     "type": "git",
